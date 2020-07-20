@@ -3,8 +3,8 @@
 #include <stdio.h> 
 #include <stdlib.h>     /* srand, rand */
 #include <time.h>       /* time */
-#define MINNUM 0
-#define MAXNUM 13
+#define MINNUM 1990000001
+#define MAXNUM 2000000000
 #define MAXTRIES 10
 /* Iterative Function to calculate (a^n)%p in O(logy) */
 int power(int a, unsigned int n, int p) 
