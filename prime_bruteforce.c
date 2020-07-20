@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-   int low = 0, high = 13, i, flag, count=0;
+   int low = 1990000001, high = 2000000000, i, flag, count=0;
    
 
    // iteration until low is not equal to high
